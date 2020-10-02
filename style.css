@@ -1436,9 +1436,13 @@ input:required {
       line-height: 1; }
   .single-speaker-area:hover .social-info, .single-speaker-area:focus .social-info {
     top: 0; }
-    @media only screen and (min-width: 300px) and (max-width: 767px) {
-      single-speaker-area .speaker-info h5 {
+    @media only screen and (min-width: 50px) and (max-width: 767px) {
+      .single-speaker-area .speaker-info h5 {
         font-size: 12px; } }
+    @media only screen and (min-width: 50px) and (max-width: 767px) {
+      .single-speaker-area .speaker-info p {
+        font-size: 10px; } }
+
 
 /* :: 13.0 Breadcrumb CSS */
 .breadcrumb-area {
