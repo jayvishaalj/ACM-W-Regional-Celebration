@@ -1443,6 +1443,9 @@ input:required {
       .single-speaker-area .speaker-info p {
         font-size: 10px; } }
 
+.acmCeleb {
+  font-size: 25px;
+}
 
 /* :: 13.0 Breadcrumb CSS */
 .breadcrumb-area {
