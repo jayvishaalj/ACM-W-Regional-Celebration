@@ -221,7 +221,15 @@
         
                     <div class="col-12 col-md-9">
                         <div class="countdown-timer mb-100 wow fadeInUp" data-wow-delay="300ms">
-                            <div id="clock"></div>
+                            <div id="parentClock">
+                                <div id="clock">
+                                    <div id="month"></div>
+                                    <div id="days"></div>
+                                    <div id="hours"></div>
+                                    <div id="minutes"></div>
+                                    <div id="seconds"></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -935,8 +943,7 @@
     <!-- Our Ticket Pricing Table Area End -->
 
     <!-- Student Organizers Area Start -->
-    <section class="our-speaker-area bg-img bg-gradient-overlay section-padding-100-60"
-        style="background-image: url(img/bg-img/3.jpg);">
+    <section class="our-speaker-area bg-img bg-gradient-overlay section-padding-100-60">
         <div class="container">
             <div class="row">
                 <!-- Heading -->
