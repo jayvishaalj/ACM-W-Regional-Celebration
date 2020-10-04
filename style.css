@@ -1187,7 +1187,9 @@ input:required {
       .about-us-countdown-area .about-content-text h3 {
         font-size: 22px; } }
   .about-us-countdown-area .about-content-text p {
-    color: #ffffff; }
+    color: #ffffff; 
+  text-align: justify;
+  text-justify: inter-word;}
 
 /* :: About Single Page CSS */
 .single-we-offer-content {
@@ -2194,13 +2196,19 @@ input:required {
     .single-client-content .single-client-text p {
       color: #ffffff;
       margin-bottom: 20px;
-      font-weight: 300; }
+      font-weight: 300;
+    text-align: justify;
+  text-justify: inter-word; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .single-client-content .single-client-text p {
-          font-size: 14px; } }
+          font-size: 14px;
+        text-align: justify;
+  text-justify: inter-word; } }
       @media only screen and (max-width: 767px) {
         .single-client-content .single-client-text p {
-          font-size: 14px; } }
+          font-size: 14px;
+        text-align: justify;
+  text-justify: inter-word; } }
     .single-client-content .single-client-text .single-client-thumb-info .single-client-thumb {
       width: 65px;
       height: 65px; }
